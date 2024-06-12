@@ -80,11 +80,39 @@ h2{
 }   
 /* section2 */
 .section2{
-  height: 200px;
   width: calc(1200 / 1440 * 100%);
   margin: auto;
   margin-block: 100px;
-  background-color: chartreuse;
+  display: flex;
+}
+.section2img{
+  object-fit: cover;
+  margin-right: 100px;
+}
+h3{
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #372D23;
+}
+p{
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #855C52;
+  margin-block: 40px;
+}
+.button2{
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  background-color: #ED6C30;
+  color: #FFFFFF;
+  padding: 12px 40px;
+  border: none;
 }
 /* footer */
 footer{
